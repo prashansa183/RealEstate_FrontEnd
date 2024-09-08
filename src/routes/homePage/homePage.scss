@@ -1,0 +1,27 @@
+.homepage{
+display: flex;
+height: 100%;
+
+.text-container{
+  // margin-top: 1px;
+  // padding-top: 100px;
+  flex:3;
+
+  .wrapper{
+    padding-right: 100px;
+  }
+}
+.image-container{
+  flex:2;
+  background-color: rgb(182, 199, 219);
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  img{
+    width: 110%;
+    position: absolute;
+    right: 0;
+
+  }
+}}
