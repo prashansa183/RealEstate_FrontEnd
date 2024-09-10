@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Navbar.scss"
 
 function Navbar() {
-  const[open,setopen]=useState(false)
+  const[open,setopen]=useState(false) // for the menu item
   return (
     <nav>
       <div className="nav-left">

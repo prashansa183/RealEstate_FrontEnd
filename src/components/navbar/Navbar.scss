@@ -8,14 +8,14 @@ nav {
   align-items: center;
 
   a {
-    transition: all 0.4s ease;  //for small increment in font .
+    transition: all 0.4s ease;  
 
     @include sm {
       display: none;
     }
 
     &:hover {
-      scale: 1.05;
+      scale: 1.05; //for small increment in font .
     }
   }
   .alogo {
@@ -26,7 +26,6 @@ nav {
 
   .nav-left {
     flex: 3;
-
     display: flex;
     align-items: center;
     gap: 50px;
@@ -50,7 +49,6 @@ nav {
     display: flex;
     align-items: center; //vertical center
     justify-content: flex-end;
-    gap: 50px;
 
     @include md{
       background-color: transparent;
@@ -63,19 +61,14 @@ nav {
     }
 
     .Register {
-      
+      border-radius: 5px;
       background-color: rgb(114, 168, 230);
     }
-
-    
-
-    
-  }
+   }
 }
 
 .menuIcon{
   display: none;
-
   z-index: 999;
   img{
     width: 36px;
@@ -93,11 +86,11 @@ nav {
   position: absolute;
   top: 0;
   right: -50%;
-  background-color: black ;
+  background-color:black ;
   color: white;
   height: 100vh;
   width: 50%;
-  transition: all 1s ease;
+  transition: all 1s ease; //spead of its apperance
   display: flex;
   flex-direction: column;
   align-items: center;
