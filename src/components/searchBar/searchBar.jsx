@@ -28,7 +28,7 @@ const SearchBar = () => {
         })}
       </div>
         <form action="">
-          <input type="text" name="location" placeholder="City Location" />
+          <input type="text" name="location" placeholder="City Location"/>
 
           <input
             type="text"

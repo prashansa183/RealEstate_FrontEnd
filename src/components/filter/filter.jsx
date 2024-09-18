@@ -15,7 +15,7 @@ const Filter = () => {
             name="city"
             placeholder="city Location"
           />
-        </div>
++        </div>
       </div>
 
       <div className="bottom">
