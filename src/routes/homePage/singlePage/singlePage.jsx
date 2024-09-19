@@ -87,7 +87,7 @@ const SinglePage = () => {
               <img src="/school.png" alt="" />
 
               <div className="featureText">
-                <span>Schoolwh</span>
+                <span>School</span>
                 <p>250m away</p>
               </div>
             </div>
@@ -109,9 +109,9 @@ const SinglePage = () => {
 
           <p className="title">Location</p>
 
-          <div className="map-container">
+          <div className="mapcontainer">
            
-        <Map items={[singlePostData]}/>
+          <Map items={[singlePostData]}/>
           
            
           </div>
