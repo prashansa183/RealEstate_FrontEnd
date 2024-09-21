@@ -12,7 +12,7 @@ function Pin({ item }) {
           <img src={item.img} alt="" />
           <div className="textContainer">
             <Link to={`/${item.id}`}>{item.title}</Link>
-            <span>{item.bedroom} bedroom</span>
+            <span>{item.bedroom} Bedroom</span>
             <b>$ {item.price}</b>
           </div>
         </div>

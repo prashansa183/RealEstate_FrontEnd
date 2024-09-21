@@ -11,7 +11,7 @@ function HomePage(){
         
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatibus atque tenetur similique omnis culpa. Incidunt aliquam porro labore ipsum facere culpa veniam iusto, laborum quis a. Explicabo, dignissimos repellendus!
+        E-Estate, powered by CIFAR, is revolutionizing the real estate industry with cutting-edge AI and machine learning technologies. Leveraging CIFAR's expertise, E-Estate enables smarter property management, personalized home recommendations, and efficient data-driven solutions. 
         </p>     
         <SearchBar/>
         <div className='boxes'>

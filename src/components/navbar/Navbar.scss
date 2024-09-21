@@ -1,7 +1,9 @@
 @import "../../responsive.scss";
 
 nav {
-  height: 100px;
+  height: 108px;
+  // padding-bottom: 25px;
+
 
   display: flex;
   justify-content: space-between;
@@ -26,9 +28,17 @@ nav {
 
   .nav-left {
     flex: 3;
+    // height: 108px;
+    // padding-bottom: 10px;
+    // margin-bottom: 10px;
     display: flex;
     align-items: center;
     gap: 50px;
+
+    @include md{
+      gap: 40px;
+      margin-right: 10px;
+    }
 
     .logo {
       width: 95px;
@@ -53,12 +63,55 @@ nav {
     @include md{
       background-color: transparent;
     }
-
     a {
       padding: 12px 24px;
       margin: 20px;
       color: black;
     }
+    .user{
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      
+
+      img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+
+      }
+      span{
+        @include sm{
+
+          display: none;
+        }
+      }
+      .profile{
+        padding: 12px 24px ;
+        background-color: rgb(114, 168, 230);
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        .notification{
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+      }
+    }
+
+   
 
     .Register {
       border-radius: 5px;

@@ -13,7 +13,7 @@ const Filter = () => {
             type="text"
             id="city"
             name="city"
-            placeholder="city Location"
+            placeholder="city location"
           />
        </div>
       </div>

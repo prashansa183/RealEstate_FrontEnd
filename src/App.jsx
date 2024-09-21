@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./routes/homePage/homePage";
 import SinglePage from "./routes/homePage/singlePage/singlePage";
+import Profile from "./routes/homePage/profile/profile";
 
 import ListPage from "./routes/homePage/listPage/listPage";
 
@@ -27,6 +28,10 @@ const App = () => {
           path: "/:id",
           element: <SinglePage />,
         },
+        {
+          path: "/profile",
+          element: <Profile />,
+        }
       ],
     },
   ]);

@@ -1,14 +1,14 @@
 .listPage {
   display: flex;
   height: 100%;
-  margin-top: 20px;
 }
 
 .list-container {
   flex: 3;
-
+  
   
   .wrapper{
+    margin-top: 25px;
     height: 100%;
     padding-right: 50px;
     display: flex;
@@ -16,11 +16,14 @@
     gap: 50px;
     overflow-y: scroll;
     padding-bottom: 50px;
-    
+    .filter{
+      margin-bottom: -10px;
+    }
   }
 }
 .map-container {
   flex: 2;
   height: 100%;
+  // border-radius: none;
   background-color: #fcfcf3;
 }

@@ -5,11 +5,11 @@ const Cards = ({item}) => {
   return (
     <div className="cards">
       
-      <Link to={`/${item.id}`} className="image-conatiner">
+      <Link to={`/${item.id}`} className="imagecontainer">
         <img src={item.img} alt="" />
       </Link>
 
-      <div className="text-container">
+      <div className="textcontainer">
         <h2 className="title">
           <Link to={`/${item.id}`}>{item.title}</Link>
         </h2>

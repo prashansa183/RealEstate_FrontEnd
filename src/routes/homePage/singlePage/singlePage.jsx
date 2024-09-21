@@ -11,8 +11,7 @@ import { userData } from "../../../lib/dummyData";
 
 const SinglePage = () => {
 
-  // console.log("single")
-  // console.log(singlePostData)
+  
   return (
     <div className="singlePage">
       <div className="details">
