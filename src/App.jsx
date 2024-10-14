@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./routes/homePage/homePage";
 import SinglePage from "./routes/homePage/singlePage/singlePage";
+import Register from "./routes/homePage/register/register";
 import Profile from "./routes/homePage/profile/profile";
 
 import ListPage from "./routes/homePage/listPage/listPage";
@@ -23,6 +24,10 @@ const App = () => {
         {
           path: "/list",
           element: <ListPage />,
+        },
+        {
+          path: "/register",
+          element: < Register/>,
         },
         {
           path: "/:id",
